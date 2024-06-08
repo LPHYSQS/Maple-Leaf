@@ -1,0 +1,53 @@
+{
+  "data":[
+    {
+      "softwareName":"7-Zip",
+      "type":"解压缩",
+      "softwareDetail":"https://7-zip.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-tbOPA.html",
+      "downloadUrl":"https://7-zip.org/a/7z2406-x64.exe"
+    },
+    {
+      "softwareName":"PeaZip",
+      "type":"解压缩",
+      "softwareDetail":"https://peazip.github.io/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-zbOPA.html",
+      "downloadUrl":"https://github.com/peazip/PeaZip/releases/download/9.8.0/peazip-9.8.0.WIN64.exe"
+    },
+    {
+      "softwareName":"Sumatra PDF",
+      "type":"书籍阅读",
+      "softwareDetail":"https://www.sumatrapdfreader.org/free-pdf-reader",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-LbOPA.html",
+      "downloadUrl":"https://www.sumatrapdfreader.org/dl/rel/3.5.2/SumatraPDF-3.5.2-64-install.exe"
+    },
+    {
+      "softwareName":"Calibre",
+      "type":"书籍阅读",
+      "softwareDetail":"https://calibre-ebook.com/zh_CN",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-5bOPA.html",
+      "downloadUrl":"https://download.calibre-ebook.com/7.12.0/calibre-64bit-7.12.0.msi"
+    },
+    {
+      "softwareName":"VLC media player",
+      "type":"播放器",
+      "softwareDetail":"https://www.videolan.org/vlc/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-qbOPA.html",
+      "downloadUrl":"https://get.videolan.org/vlc/3.0.20/win64/vlc-3.0.20-win64.exe"
+    },
+    {
+      "softwareName":"Notepad++",
+      "type":"文本编辑",
+      "softwareDetail":"https://notepad-plus-plus.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-ybOPA.html",
+      "downloadUrl":"https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.8/npp.8.6.8.Installer.x64.exe"
+    },
+    {
+      "softwareName":"Visual Studio Code",
+      "type":"文本编辑",
+      "softwareDetail":"https://code.visualstudio.com/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-VbOPA.html",
+      "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/VSCodeUserSetup-x64-1.90.0.exe"
+    }
+  ]
+}
