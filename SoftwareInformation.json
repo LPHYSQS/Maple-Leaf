@@ -48,6 +48,83 @@
       "softwareDetail":"https://code.visualstudio.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PZOPA.html",
       "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/VSCodeUserSetup-x64-1.90.0.exe"
+    },
+    {
+      "softwareName":"geek",
+      "type":"程序卸载",
+      "softwareDetail":"https://geekuninstaller.com/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-acOPA.html",
+      "downloadUrl":"https://geekuninstaller.com/geek.zip"
+    },
+    {
+      "softwareName":"draw.io",
+      "type":"导图白板",
+      "softwareDetail":"https://www.drawio.com/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-BcOPA.html",
+      "downloadUrl":"https://github.com/jgraph/drawio-desktop/releases/download/v24.5.1/draw.io-24.5.1-windows-installer.exe"
+    },
+    {
+      "softwareName":"Google Chrome",
+      "type":"浏览器",
+      "softwareDetail":"https://www.google.com/chrome/index.html",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-JcOPA.html",
+      "downloadUrl":""
+    },
+    {
+      "softwareName":"Firefox",
+      "type":"浏览器",
+      "softwareDetail":"https://www.mozilla.org/zh-CN/firefox/new/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-IcOPA.html",
+      "downloadUrl":"https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/en-US/win/276abe717b90a8e10e99214eafcf850d84ffcf65aa7d2904dad0b95d1ecc62bc/Firefox%20Installer.exe"
+    },
+    {
+      "softwareName":"Brave",
+      "type":"浏览器",
+      "softwareDetail":"https://brave.com/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-McOPA.html",
+      "downloadUrl":"https://referrals.brave.com/latest/BraveBrowserSetup-BRV011.exe"
+    },
+    {
+      "softwareName":"Steam",
+      "type":"游戏平台",
+      "softwareDetail":"https://store.steampowered.com/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-wcOPA.html",
+      "downloadUrl":"https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
+    },
+    {
+      "softwareName":"Epic",
+      "type":"游戏平台",
+      "softwareDetail":"https://www.epicgames.com/site/zh-CN/home",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-gcOPA.html",
+      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-e8282849802f4b589f5d1903e1124be4.msi"
+    },
+    {
+      "softwareName":"Everything",
+      "type":"效率提升",
+      "softwareDetail":"https://www.voidtools.com/zh-cn/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-FcOPA.html",
+      "downloadUrl":"https://www.voidtools.com/Everything-1.4.1.1024.x64-Setup.exe"
+    },
+    {
+      "softwareName":"Blender",
+      "type":"模型制作",
+      "softwareDetail":"https://www.blender.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-YcOPA.html",
+      "downloadUrl":"https://www.blender.org/download/release/Blender4.1/blender-4.1.1-windows-x64.msi/"
+    },
+    {
+      "softwareName":"Motrix",
+      "type":"下载器",
+      "softwareDetail":"https://motrix.app/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-GcOPA.html",
+      "downloadUrl":"https://dl.motrix.app/release/Motrix-Setup-1.8.19.exe"
+    },
+    {
+      "softwareName":"NDM",
+      "type":"下载器",
+      "softwareDetail":"https://www.neatdownloadmanager.com/index.php/en/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PcOPA.html",
+      "downloadUrl":"https://www.neatdownloadmanager.com/file/NeatDM_setup.exe"
     }
   ]
 }
