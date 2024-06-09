@@ -174,6 +174,27 @@
       "softwareDetail":"https://docs.lxmusic.top/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-oeOPA.html",
       "downloadUrl":"https://github.com/lyswhut/lx-music-desktop/releases/download/v2.8.0/lx-music-desktop-v2.8.0-x64-Setup.exe"
+    },
+    {
+      "softwareName":"GIMP",
+      "type":"图像编辑",
+      "softwareDetail":"https://www.gimp.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-1eOPA.html",
+      "downloadUrl":"https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe"
+    },
+    {
+      "softwareName":"Inkscape",
+      "type":"图像编辑",
+      "softwareDetail":"https://inkscape.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-4eOPA.html",
+      "downloadUrl":"https://media.inkscape.org/dl/resources/file/inkscape-1.3.2_2023-11-25_091e20e-x64.msi"
+    },
+    {
+      "softwareName":"Krita",
+      "type":"数字绘画",
+      "softwareDetail":"https://krita.org/zh-cn/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-xeOPA.html",
+      "downloadUrl":"https://download.kde.org/stable/krita/5.2.2/krita-x64-5.2.2-setup.exe"
     }
   ]
 }
