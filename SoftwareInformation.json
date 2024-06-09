@@ -153,6 +153,27 @@
       "softwareDetail":"https://www.internetdownloadmanager.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-NcOPA.html",
       "downloadUrl":""
+    },
+    {
+      "softwareName":"Upscayl",
+      "type":"图像增强",
+      "softwareDetail":"https://www.upscayl.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-9eOPA.html",
+      "downloadUrl":"https://github.com/upscayl/upscayl/releases/download/v2.11.0/upscayl-2.11.0-win.exe"
+    },
+    {
+      "softwareName":"Qalculate!",
+      "type":"计算器",
+      "softwareDetail":"https://qalculate.github.io/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-QeOPA.html",
+      "downloadUrl":"https://github.com/Qalculate/libqalculate/releases/download/v5.1.1/qalculate-5.1.1-x64.msi"
+    },
+    {
+      "softwareName":"LX Music",
+      "type":"音乐播放",
+      "softwareDetail":"https://docs.lxmusic.top/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-oeOPA.html",
+      "downloadUrl":"https://github.com/lyswhut/lx-music-desktop/releases/download/v2.8.0/lx-music-desktop-v2.8.0-x64-Setup.exe"
     }
   ]
 }
