@@ -125,6 +125,34 @@
       "softwareDetail":"https://www.neatdownloadmanager.com/index.php/en/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PcOPA.html",
       "downloadUrl":"https://www.neatdownloadmanager.com/file/NeatDM_setup.exe"
+    },
+    {
+      "softwareName":"Microsoft Office",
+      "type":"Office",
+      "softwareDetail":"",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-2cOPA.html",
+      "downloadUrl":""
+    },
+    {
+      "softwareName":"LibreOffice",
+      "type":"Office",
+      "softwareDetail":"https://zh-cn.libreoffice.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-scOPA.html",
+      "downloadUrl":"https://www.libreoffice.org/donate/dl/win-x86_64/24.2.4/zh-CN/LibreOffice_24.2.4_Win_x86-64.msi"
+    },
+    {
+      "softwareName":"PixPin",
+      "type":"截图贴图",
+      "softwareDetail":"https://pixpinapp.com/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WcOPA.html",
+      "downloadUrl":"https://download.pixpinapp.com/PixPin_1.7.6.0.exe"
+    },
+    {
+      "softwareName":"Snipaste",
+      "type":"截图贴图",
+      "softwareDetail":"https://www.snipaste.com/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-CcOPA.html",
+      "downloadUrl":""
     }
   ]
 }
