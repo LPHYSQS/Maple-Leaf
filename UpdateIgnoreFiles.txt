@@ -1,0 +1,8 @@
+.\D3DCompiler_47_cor3.dll&
+.\PenImc_cor3.dll&
+.\PresentationNative_cor3.dll&
+.\Updata Maple Leaf.exe&
+.\Updata Maple Leaf.pdb&
+.\vcruntime140_cor3.dll&
+.\wpfgfx_cor3.dll&
+.\Maple Leaf_Data\StreamingAssets\Programs\
