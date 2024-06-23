@@ -195,6 +195,13 @@
       "softwareDetail":"https://obsproject.com/zh-cn/download",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-ddRPA.html",
       "downloadUrl":"https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.1.2-Full-Installer-x64.exe"
+    },
+    {
+      "softwareName":"PotPlayer",
+      "type":"播放器",
+      "softwareDetail":"https://potplayer.tv/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-3dRPA.html",
+      "downloadUrl":"https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe"
     }
   ]
 }
