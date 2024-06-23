@@ -1,1 +1,1 @@
-2024.6.23\n7-Zip更新为7z2407-x64\n
+2024.6.23\n更新：\n7-Zip更新为7z2407-x64\nVLC media player更新为vlc-3.0.21-win64\ndraw.io更新为draw.io-24.6.1-windows-installer\nBrave更新为BraveBrowserSetup-BRV002\n新增：\nChromium浏览器\n移除：\IDM,Notepad++,
