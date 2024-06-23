@@ -188,6 +188,13 @@
       "softwareDetail":"https://www.chromium.org/getting-involved/download-chromium/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-cvRPA.html",
       "downloadUrl":""
+    },
+    {
+      "softwareName":"OBS",
+      "type":"屏幕录制",
+      "softwareDetail":"https://obsproject.com/zh-cn/download",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-ddRPA.html",
+      "downloadUrl":"https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.1.2-Full-Installer-x64.exe"
     }
   ]
 }
