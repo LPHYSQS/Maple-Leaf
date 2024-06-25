@@ -5,4 +5,6 @@
 .\Updata Maple Leaf.pdb&
 .\vcruntime140_cor3.dll&
 .\wpfgfx_cor3.dll&
-.\Maple Leaf_Data\StreamingAssets\Programs\
+.\Maple Leaf_Data\StreamingAssets\Programs\&
+.\unins000.dat&
+.\unins000.exe
