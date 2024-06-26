@@ -44,6 +44,7 @@ JSON 数据的顶层结构包含一个名为 `data` 的数组，其中每个元�
 - `softwareDetail` (字符串): 软件详情链接
 - `softwareNetworkDiskUrl` (字符串): 软件网盘链接
 - `downloadUrl` (字符串): 软件下载链接
+- `comments` (字符串): 软件说明
 
 json示例：
 
@@ -51,25 +52,28 @@ json示例：
 {
   "data": [
     {
-      "softwareName": "7-Zip",
-      "type": "解压缩",
-      "softwareDetail": "https://7-zip.org/",
-      "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-CZOPA.html",
-      "downloadUrl": "https://7-zip.org/a/7z2407-x64.exe"
+      "softwareName":"7-Zip",
+      "type":"解压缩",
+      "softwareDetail":"https://7-zip.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-CZOPA.html",
+      "downloadUrl":"https://7-zip.org/a/7z2407-x64.exe",
+      "comments":"解压缩工具(开源、轻量化)"
     },
     {
-      "softwareName": "PeaZip",
-      "type": "解压缩",
-      "softwareDetail": "https://peazip.github.io/",
-      "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-WZOPA.html",
-      "downloadUrl": "https://github.com/peazip/PeaZip/releases/download/9.8.0/peazip-9.8.0.WIN64.exe"
+      "softwareName":"PeaZip",
+      "type":"解压缩",
+      "softwareDetail":"https://peazip.github.io/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WZOPA.html",
+      "downloadUrl":"https://github.com/peazip/PeaZip/releases/download/9.8.0/peazip-9.8.0.WIN64.exe",
+      "comments":"解压缩工具(开源、轻量化)"
     },
     {
-      "softwareName": "Sumatra PDF",
-      "type": "书籍阅读",
-      "softwareDetail": "https://www.sumatrapdfreader.org/free-pdf-reader",
-      "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-sZOPA.html",
-      "downloadUrl": "https://www.sumatrapdfreader.org/dl/rel/3.5.2/SumatraPDF-3.5.2-64-install.exe"
+      "softwareName":"Sumatra PDF",
+      "type":"书籍阅读",
+      "softwareDetail":"https://www.sumatrapdfreader.org/free-pdf-reader",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-sZOPA.html",
+      "downloadUrl":"https://www.sumatrapdfreader.org/dl/rel/3.5.2/SumatraPDF-3.5.2-64-install.exe",
+      "comments":"书籍阅读工具(开源、轻量化、支持PDF、Mobi、Epub等、不支持编辑)"
     }
    ]
  }
