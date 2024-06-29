@@ -1,92 +1,46 @@
 <!doctype html>
 <html>
 <head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<title>Maple Leaf</title>
-<style>
-    body {
-        background-color: black;
-        color: white;
-    }
-    a {
-        color: #1E90FF; /* 深蓝色链接 */
-    }
-</style>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Maple Leaf</title>
+    <link rel="icon" href="https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/AppLogo.png?raw=true" type="image/png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<p>&nbsp;</p>
-<h1 align="center">Maple-Leaf😶‍🌫️</h1>
-<p><strong>谨以此软件致敬我的“赛博文盲”兄弟们。💖</strong></p>
-<p><strong>首先，我要声明本软件（Maple Leaf）的制作离不开我的“赛博文盲”兄弟们😂😂。</strong></p>
-<p><img src="https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/AppLogo.png?raw=true" referrerpolicy="no-referrer"></p>
-<h2 id='🖊---说明'>🖊 说明</h2>
-<p><strong>Maple Leaf是为了解决PC小白安装电脑软件无法正确找到官网下载到盗版软件以及下载到捆绑软件，另外就是一些在特定情况下需要对电脑重装后快速安装一些必备软件需求，避免在U盘或移动硬盘上频繁向电脑中拷贝一些必备软件。</strong></p>
-<p>我的好兄弟们，他们有的Steam需要关注公众号登录，有的将Google浏览器下载成了“全家桶”（还被篡改了默认浏览器主页），有的电脑桌面全是“一刀九九、是兄弟就来砍我！”，有的在网店购买正版游戏平台安装包，呃……。</p>
-<p>其实这些都是玩笑话，真实应该是苦搜索久矣才对。😊😊</p>
-<p>Maple Leaf是一款由Unity制作的“自由软件部署”软件，你看到的通过“远程获取”的软件中80%都是自由且开源的软件。</p>
-<p>关于制作如果你问我为什么选择Unity制作，原因就是我对其他的UI框架并不是十分熟悉（包括WPF【C#】，本软件的更新程序是由WPF【C#】编写的）,其实你如果有兴趣的话，可以自己搭建一个资源占用较少的UI进行驱动。</p>
-<p>UI界面的Unity源码我会进行开源，但目前有部分代码需要进行优化（其实就是一些速度提升的问题😥，尤其是对于无法正常访问GitHub的用户的网络原因【依赖于对数据的获取】）</p>
-<h2 id='✌️-关于更新'>✌️ 关于更新</h2>
-<ol start='' >
-<li>对于“远程获取”软件资源不出意外的话我会在每个月的1号与15号进行资源更新。关于有些网址无法打开的问题，你可以通过软件中的网盘按钮进行软件下载。</li>
-<li>软件更新（其实就是UI界面更新），除非存在必要更新才会推送更新的。</li>
-
-</ol>
-<h2 id='🖥-支持的操作系统'>🖥 支持的操作系统</h2>
-<ul>
-<li>Windows 10及以上64位操作系统</li>
-
-</ul>
-<h2 id='🫡二次开发'>🫡 二次开发</h2>
-<p>关于二次开发你可以通过Get请求：【<a href='https://raw.githubusercontent.com/LPHYSQS/Maple-Leaf/main/SoftwareInformation.json'>raw.githubusercontent.com/LPHYSQS/Maple-Leaf/main/SoftwareInformation.json</a>】通过获取数据后对json的解析获取当前软件库状态并进行UI界面显示与交互。</p>
-<p>SoftwareInformation.json文件说明（此 JSON 文件用于存储各类软件的详细信息，包括名称、类型、官方网站、下载链接）：</p>
-<p>JSON 数据的顶层结构包含一个名为 <code>data</code> 的数组，其中每个元素代表一个软件，包含以下字段：</p>
-<ul>
-<li><code>softwareName</code> (字符串): 软件名称</li>
-<li><code>type</code> (字符串): 软件类型</li>
-<li><code>softwareDetail</code> (字符串): 软件详情链接</li>
-<li><code>softwareNetworkDiskUrl</code> (字符串): 软件网盘链接</li>
-<li><code>downloadUrl</code> (字符串): 软件下载链接</li>
-<li><code>comments</code> (字符串): 软件说明</li>
-
-</ul>
-<p>json示例：</p>
-<pre><code class='language-json' lang='json'>{
-  &quot;data&quot;: [
-    {
-      &quot;softwareName&quot;:&quot;7-Zip&quot;,
-      &quot;type&quot;:&quot;解压缩&quot;,
-      &quot;softwareDetail&quot;:&quot;https://7-zip.org/&quot;,
-      &quot;softwareNetworkDiskUrl&quot;:&quot;https://www.123pan.com/s/eleuVv-CZOPA.html&quot;,
-      &quot;downloadUrl&quot;:&quot;https://7-zip.org/a/7z2407-x64.exe&quot;,
-      &quot;comments&quot;:&quot;解压缩工具(开源、轻量化)&quot;
-    },
-    {
-      &quot;softwareName&quot;:&quot;PeaZip&quot;,
-      &quot;type&quot;:&quot;解压缩&quot;,
-      &quot;softwareDetail&quot;:&quot;https://peazip.github.io/&quot;,
-      &quot;softwareNetworkDiskUrl&quot;:&quot;https://www.123pan.com/s/eleuVv-WZOPA.html&quot;,
-      &quot;downloadUrl&quot;:&quot;https://github.com/peazip/PeaZip/releases/download/9.8.0/peazip-9.8.0.WIN64.exe&quot;,
-      &quot;comments&quot;:&quot;解压缩工具(开源、轻量化)&quot;
-    },
-    {
-      &quot;softwareName&quot;:&quot;Sumatra PDF&quot;,
-      &quot;type&quot;:&quot;书籍阅读&quot;,
-      &quot;softwareDetail&quot;:&quot;https://www.sumatrapdfreader.org/free-pdf-reader&quot;,
-      &quot;softwareNetworkDiskUrl&quot;:&quot;https://www.123pan.com/s/eleuVv-sZOPA.html&quot;;
-      &quot;downloadUrl&quot;:&quot;https://www.sumatrapdfreader.org/dl/rel/3.5.2/SumatraPDF-3.5.2-64-install.exe&quot;,
-      &quot;comments&quot;:&quot;书籍阅读工具(开源、轻量化、支持PDF、Mobi、Epub等、不支持编辑)&quot;
-    }
-   ]
- }
-</code></pre>
-<p>&nbsp;</p>
-<h2 id='🫠-关于作者'>🫠 关于作者</h2>
-<p>作者邮箱：<a href='mailto:ysqslphlph@gmail.com' target='_blank' class='url'>ysqslphlph@gmail.com</a></p>
-<p>作者B站主页：<a href='https://space.bilibili.com/356837669?spm_id_from=333.337.0.0' target='_blank' class='url'>https://space.bilibili.com/356837669?spm_id_from=333.337.0.0</a></p>
-<p>作者GitHub仓库：<a href='https://github.com/LPHYSQS/Maple-Leaf' target='_blank' class='url'>https://github.com/LPHYSQS/Maple-Leaf</a></p>
-<p><strong>（注：作者个人查找整理软件的速度有限，欢迎各位投稿优秀实用的软件）</strong></p>
-<p>&nbsp;</p>
+    <div class="centered" id="studioLogoContainer">
+        <img src="https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/StudioLogo.png?raw=true" id="studioLogo" referrerpolicy="no-referrer">
+        <h2 id="studioText">Net Cloud Flow Maple Studio</h2>
+    </div>
+    <div class="container" id="mainContent">
+        <div class="card" id="card">
+            <img id="logo" src="https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/AppLogo.png?raw=true" referrerpolicy="no-referrer">
+            <div class="card__content">
+                <p class="card__title">Maple Leaf</p>
+                <p class="card__description">为了解决在安装电脑软件时遇到的问题，即无法从官网正确下载软件、下载到盗版软件或捆绑软件的情况。特别是在一些特定情况下，例如新电脑购买后或电脑重装系统后，需要快速安装必备软件，而不想频繁从U盘或移动硬盘复制常用软件。</p>
+            </div>
+        </div>
+        <h1 id="title">Maple Leaf</h1>
+        <button id="downloadExeButton">下载 .exe</button>
+        <button id="downloadZipButton">下载 .zip</button>
+        <span class="version" id="versionText">v1.0.0.3 正式版现已发布</span>
+    </div>
+    <div class="image-container" id="rightImageContainer">
+        <img src="https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/SoftwareInterface.png?raw=true" id="softwareImage" referrerpolicy="no-referrer">
+    </div>
+    <div class="social-buttons" id="socialButtons">
+        <a href="https://github.com/LPHYSQS/Maple-Leaf" class="social-button github">
+            <svg class="cf-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="-2.5 0 19 19">
+              <path d="M9.464 17.178a4.506 4.506 0 0 1-2.013.317 4.29 4.29 0 0 1-2.007-.317a.746.746 0 0 1-.277-.587c0-.22-.008-.798-.012-1.567-2.564.557-3.105-1.236-3.105-1.236a2.44 2.44 0 0 0-1.024-1.348c-.836-.572.063-.56.063-.56a1.937 1.937 0 0 1 1.412.95 1.962 1.962 0 0 0 2.682.765 1.971 1.971 0 0 1 .586-1.233c-2.046-.232-4.198-1.023-4.198-4.554a3.566 3.566 0 0 1 .948-2.474 3.313 3.313 0 0 1 .091-2.438s.773-.248 2.534.945a8.727 8.727 0 0 1 4.615 0c1.76-1.193 2.532-.945 2.532-.945a3.31 3.31 0 0 1 .092 2.438 3.562 3.562 0 0 1 .947 2.474c0 3.54-2.155 4.32-4.208 4.548a2.195 2.195 0 0 1 .625 1.706c0 1.232-.011 2.227-.011 2.529a.694.694 0 0 1-.272.587z"></path>
+            </svg>
+          </a>
+          <a href="https://space.bilibili.com/356837669?spm_id_from=333.337.0.0" class="social-button bilibili">
+            <svg class="cf-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M22.8 4.8H17.4L19.2 2.4C19.5 2.1 19.5 1.5 19.2 1.2C18.9 0.9 18.3 0.9 18 1.2L15.6 4.8H8.4L6 1.2C5.7 0.9 5.1 0.9 4.8 1.2C4.5 1.5 4.5 2.1 4.8 2.4L6.6 4.8H1.2C0.6 4.8 0 5.4 0 6V20.4C0 21 0.6 21.6 1.2 21.6H22.8C23.4 21.6 24 21 24 20.4V6C24 5.4 23.4 4.8 22.8 4.8ZM21.6 19.2H2.4V7.2H21.6V19.2ZM9.6 15.6H7.2V10.8H9.6V15.6ZM16.8 15.6H14.4V10.8H16.8V15.6Z"></path>
+            </svg>
+          </a>          
+      </div>
+      <span class="year" id="yearVersionText">©2024 Maple Leaf</span>
+    <script src="scripts.js"></script>
 </body>
 </html>
