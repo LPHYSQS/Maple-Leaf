@@ -1,0 +1,284 @@
+body {
+    background-color: #181A1B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* 防止页面内容超出可视区域 */
+}
+
+.centered {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #181A1B;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.centered img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.centered h2 {
+    margin-top: 60px;
+    font-size: 2.5em;
+    opacity: 1;
+}
+
+.container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #181A1B;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.card:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.card:hover img {
+    scale: 0;
+    transform: rotate(-45deg);
+}
+
+.container h1 {
+    font-size: 2em;
+    margin: 20px 0 0 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.container button {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    font-size: 18px;
+    font-family: inherit;
+    cursor: pointer;
+    color: #fff;
+    width: 13em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+}
+
+@keyframes ani {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+.container button:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+
+.container button:hover::before {
+    filter: blur(20px);
+}
+
+.container button:active {
+    background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+.version {
+    font-size: 0.88em;
+    font-style: italic;
+    color: #aaa;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+.image-container {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translateY(-50%);
+    opacity: 0; /* 初始隐藏 */
+    transition: opacity 1s ease; /* 设置渐变效果 */
+    display: none; /* 初始隐藏 */
+}
+
+.image-container img {
+    width: 68%;
+    object-fit: contain;
+    border-radius: 18px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648); /* 默认投影 */
+    transition: box-shadow 0.3s ease-in-out, transform 0.5s; /* 过渡效果 */
+}
+
+.social-buttons {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 15px #00000027;
+    padding: 5px 7px;
+    border-radius: 5em;
+    opacity: 0; /* 初始隐藏 */
+    transition: opacity 1s ease; /* 设置渐变效果 */
+    display: none; /* 初始隐藏 */
+  }
+  
+  .social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+  }
+  
+  .social-button:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 6px 3px #00000027;
+  }
+  
+  .social-buttons svg {
+    transition: 0.3s;
+    height: 20px;
+  }
+  
+  .github {
+    background-color: #333;
+  }
+  
+  .github svg {
+    width: 20px;
+    height: 20px;
+    fill: #f2f2f2;
+  }
+  
+  .github:hover svg {
+    fill: #333;
+  }
+  
+  .bilibili {
+    background-color: #00A1D6;
+  }
+  
+  .bilibili svg {
+    width: 20px;
+    height: 20px;
+    fill: #f2f2f2;
+  }
+  
+  .bilibili:hover svg {
+    fill: #00A1D6;
+  }
+
+  .year{
+    position: absolute;
+    top: 96%;
+    left: 1.4%;
+    font-size: 0.58em;
+    /*font-style: italic;*/
+    color: #aaa;
+    /*margin-top: 10px;*/
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
