@@ -29,7 +29,7 @@
       "type":"书籍阅读",
       "softwareDetail":"https://calibre-ebook.com/zh_CN",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-2ZOPA.html",
-      "downloadUrl":"https://download.calibre-ebook.com/7.12.0/calibre-64bit-7.12.0.msi",
+      "downloadUrl":"https://download.calibre-ebook.com/7.13.0/calibre-64bit-7.13.0.msi",
       "comments":"书籍阅读工具(开源、支持Mobi、Epub等、支持编辑)"
     },
     {
@@ -45,7 +45,7 @@
       "type":"文本编辑",
       "softwareDetail":"https://code.visualstudio.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PZOPA.html",
-      "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/89de5a8d4d6205e5b11647eb6a74844ca23d2573/VSCodeUserSetup-x64-1.90.0.exe",
+      "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/5437499feb04f7a586f677b155b039bc2b3669eb/VSCodeUserSetup-x64-1.90.2.exe",
       "comments":"文本编辑工具(开源、轻量化、支持Markdown、C/C++、Python等)"
     },
     {
@@ -61,7 +61,7 @@
       "type":"导图白板",
       "softwareDetail":"https://www.drawio.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-BcOPA.html",
-      "downloadUrl":"https://github.com/jgraph/drawio-desktop/releases/download/v24.6.1/draw.io-24.6.1-windows-installer.exe",
+      "downloadUrl":"https://github.com/jgraph/drawio-desktop/releases/download/v24.6.4/draw.io-24.6.4-windows-installer.exe",
       "comments":"导图白板工具(开源、轻量化、支持思维导图、流程图等)"
     },
     {
@@ -77,7 +77,7 @@
       "type":"浏览器",
       "softwareDetail":"https://www.mozilla.org/zh-CN/firefox/new/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-IcOPA.html",
-      "downloadUrl":"https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/en-US/win/276abe717b90a8e10e99214eafcf850d84ffcf65aa7d2904dad0b95d1ecc62bc/Firefox%20Installer.exe",
+      "downloadUrl":"https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/zh-CN/win/79eb663203161c0ab90d06a415ad9b42ee788da1384d86cdab82465c9da175ad/Firefox%20Installer.exe",
       "comments":"浏览器(开源、主流、Firefox内核)"
     },
     {
@@ -85,7 +85,7 @@
       "type":"浏览器",
       "softwareDetail":"https://brave.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-McOPA.html",
-      "downloadUrl":"https://referrals.brave.com/latest/BraveBrowserSetup-BRV002.exe",
+      "downloadUrl":"https://referrals.brave.com/latest/BraveBrowserSetup-BRV030.exe",
       "comments":"浏览器(开源、防止追踪、Web3)"
     },
     {
@@ -101,7 +101,7 @@
       "type":"游戏平台",
       "softwareDetail":"https://www.epicgames.com/site/zh-CN/home",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-gcOPA.html",
-      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-e8282849802f4b589f5d1903e1124be4.msi",
+      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-173859a787ae4fbc8120dd1fced43f44.msi",
       "comments":"游戏平台(游戏内购、免费领取游戏、虚幻引擎(UnrealEngine))"
     },
     {
@@ -165,7 +165,7 @@
       "type":"图像增强",
       "softwareDetail":"https://www.upscayl.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-9eOPA.html",
-      "downloadUrl":"https://github.com/upscayl/upscayl/releases/download/v2.11.0/upscayl-2.11.0-win.exe",
+      "downloadUrl":"https://github.com/upscayl/upscayl/releases/download/v2.11.5/upscayl-2.11.5-win.exe",
       "comments":"图像增强(开源、轻量化、AI图像增强、超分辨率、AI驱动图片无损放大)"
     },
     {
@@ -205,7 +205,7 @@
       "type":"数字绘画",
       "softwareDetail":"https://krita.org/zh-cn/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-xeOPA.html",
-      "downloadUrl":"https://download.kde.org/stable/krita/5.2.2/krita-x64-5.2.2-setup.exe",
+      "downloadUrl":"https://download.kde.org/stable/krita/5.2.3/krita-x64-5.2.3-setup.exe",
       "comments":"数字绘画(开源、轻量化、支持数字绘画、支持数字绘画滤镜)"
     },
     {
