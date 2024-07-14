@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     downloadZipButton.addEventListener('click', function() {
-        var downloadUrlZip = "https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.0.0.3/Maple.Leaf-win64-v1.0.0.4.zip";
+        var downloadUrlZip = "https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.0.0.4/Maple.Leaf-win64-v1.0.0.4.zip";
         window.location.href = downloadUrlZip;
     });
 });
