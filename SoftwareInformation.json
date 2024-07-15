@@ -29,7 +29,7 @@
       "type":"书籍阅读",
       "softwareDetail":"https://calibre-ebook.com/zh_CN",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-2ZOPA.html",
-      "downloadUrl":"https://download.calibre-ebook.com/7.13.0/calibre-64bit-7.13.0.msi",
+      "downloadUrl":"https://download.calibre-ebook.com/7.14.0/calibre-64bit-7.14.0.msi",
       "comments":"书籍阅读工具(开源、支持Mobi、Epub等、支持编辑)"
     },
     {
@@ -45,7 +45,7 @@
       "type":"文本编辑",
       "softwareDetail":"https://code.visualstudio.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PZOPA.html",
-      "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/5437499feb04f7a586f677b155b039bc2b3669eb/VSCodeUserSetup-x64-1.90.2.exe",
+      "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/f1e16e1e6214d7c44d078b1f0607b2388f29d729/VSCodeUserSetup-x64-1.91.1.exe",
       "comments":"文本编辑工具(开源、轻量化、支持Markdown、C/C++、Python等)"
     },
     {
@@ -101,7 +101,7 @@
       "type":"游戏平台",
       "softwareDetail":"https://www.epicgames.com/site/zh-CN/home",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-gcOPA.html",
-      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-173859a787ae4fbc8120dd1fced43f44.msi",
+      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-cb6f3f8de9b44f9e9f191010a367ee1b.msi",
       "comments":"游戏平台(游戏内购、免费领取游戏、虚幻引擎(UnrealEngine))"
     },
     {
@@ -141,7 +141,7 @@
       "type":"Office",
       "softwareDetail":"https://zh-cn.libreoffice.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-scOPA.html",
-      "downloadUrl":"https://www.libreoffice.org/donate/dl/win-x86_64/24.2.4/zh-CN/LibreOffice_24.2.4_Win_x86-64.msi",
+      "downloadUrl":"https://download.documentfoundation.org/libreoffice/stable/24.2.5/win/x86_64/LibreOffice_24.2.5_Win_x86-64.msi",
       "comments":"Office(开源、轻量化、支持文档、支持表格、支持演示文稿)"
     },
     {
@@ -173,7 +173,7 @@
       "type":"计算器",
       "softwareDetail":"https://qalculate.github.io/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-QeOPA.html",
-      "downloadUrl":"https://github.com/Qalculate/libqalculate/releases/download/v5.1.1/qalculate-5.1.1-x64.msi",
+      "downloadUrl":"https://github.com/Qalculate/libqalculate/releases/download/v5.2.0/qalculate-5.2.0-x64.msi",
       "comments":"计算器(开源、轻量化、支持科学计算、支持单位换算)"
     },
     {
@@ -221,7 +221,7 @@
       "type":"屏幕录制",
       "softwareDetail":"https://obsproject.com/zh-cn/download",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-ddRPA.html",
-      "downloadUrl":"https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.1.2-Full-Installer-x64.exe",
+      "downloadUrl":"https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.0-Windows-Installer.exe",
       "comments":"屏幕录制(开源、轻量化、支持录屏、支持录屏滤镜)"
     },
     {
