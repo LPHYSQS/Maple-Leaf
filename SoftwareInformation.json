@@ -29,7 +29,7 @@
       "type":"书籍阅读",
       "softwareDetail":"https://calibre-ebook.com/zh_CN",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-2ZOPA.html",
-      "downloadUrl":"https://download.calibre-ebook.com/7.14.0/calibre-64bit-7.14.0.msi",
+      "downloadUrl":"https://download.calibre-ebook.com/7.16.0/calibre-64bit-7.16.0.msi",
       "comments":"书籍阅读工具(开源、支持Mobi、Epub等、支持编辑)"
     },
     {
@@ -61,7 +61,7 @@
       "type":"导图白板",
       "softwareDetail":"https://www.drawio.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-BcOPA.html",
-      "downloadUrl":"https://github.com/jgraph/drawio-desktop/releases/download/v24.6.4/draw.io-24.6.4-windows-installer.exe",
+      "downloadUrl":"https://github.com/jgraph/drawio-desktop/releases/download/v24.7.5/draw.io-24.7.5-windows-installer.exe",
       "comments":"导图白板工具(开源、轻量化、支持思维导图、流程图等)"
     },
     {
@@ -77,7 +77,7 @@
       "type":"浏览器",
       "softwareDetail":"https://www.mozilla.org/zh-CN/firefox/new/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-IcOPA.html",
-      "downloadUrl":"https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/zh-CN/win/79eb663203161c0ab90d06a415ad9b42ee788da1384d86cdab82465c9da175ad/Firefox%20Installer.exe",
+      "downloadUrl":"https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/zh-CN/win/33f00097ce3b4256b90f42af644dbdc767b31569f1ae40376cdcdc2a67fea4a2/Firefox%20Installer.exe",
       "comments":"浏览器(开源、主流、Firefox内核)"
     },
     {
@@ -85,7 +85,7 @@
       "type":"浏览器",
       "softwareDetail":"https://brave.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-McOPA.html",
-      "downloadUrl":"https://referrals.brave.com/latest/BraveBrowserSetup-BRV030.exe",
+      "downloadUrl":"https://referrals.brave.com/latest/BraveBrowserSetup-BRV002.exe",
       "comments":"浏览器(开源、防止追踪、Web3)"
     },
     {
@@ -101,7 +101,7 @@
       "type":"游戏平台",
       "softwareDetail":"https://www.epicgames.com/site/zh-CN/home",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-gcOPA.html",
-      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-cb6f3f8de9b44f9e9f191010a367ee1b.msi",
+      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-a1c692626f5148f7bd9c1ddac0de7ab8.msi",
       "comments":"游戏平台(游戏内购、免费领取游戏、虚幻引擎(UnrealEngine))"
     },
     {
@@ -117,7 +117,7 @@
       "type":"模型制作",
       "softwareDetail":"https://www.blender.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-YcOPA.html",
-      "downloadUrl":"https://www.blender.org/download/release/Blender4.1/blender-4.1.1-windows-x64.msi/",
+      "downloadUrl":"https://mirrors.iu13.net/blender/release/Blender4.2/blender-4.2.0-windows-x64.msi",
       "comments":"模型制作(开源、轻量化、支持3D建模、支持3D动画、支持3D渲染)"
     },
     {
@@ -141,7 +141,7 @@
       "type":"Office",
       "softwareDetail":"https://zh-cn.libreoffice.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-scOPA.html",
-      "downloadUrl":"https://download.documentfoundation.org/libreoffice/stable/24.2.5/win/x86_64/LibreOffice_24.2.5_Win_x86-64.msi",
+      "downloadUrl":"http://libreoffice-mirror.rbc.ru/pub/libreoffice/libreoffice/stable/24.2.5/win/x86_64/LibreOffice_24.2.5_Win_x86-64.msi",
       "comments":"Office(开源、轻量化、支持文档、支持表格、支持演示文稿)"
     },
     {
@@ -221,7 +221,7 @@
       "type":"屏幕录制",
       "softwareDetail":"https://obsproject.com/zh-cn/download",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-ddRPA.html",
-      "downloadUrl":"https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.0-Windows-Installer.exe",
+      "downloadUrl":"https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.2-Windows-Installer.exe",
       "comments":"屏幕录制(开源、轻量化、支持录屏、支持录屏滤镜)"
     },
     {
