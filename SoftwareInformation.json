@@ -5,7 +5,7 @@
       "type":"解压缩",
       "softwareDetail":"https://7-zip.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-CZOPA.html",
-      "downloadUrl":"https://7-zip.org/a/7z2407-x64.exe",
+      "downloadUrl":"https://7-zip.org/a/7z2408-x64.exe",
       "comments":"解压缩工具(开源、轻量化)"
     },
     {
@@ -13,7 +13,7 @@
       "type":"解压缩",
       "softwareDetail":"https://peazip.github.io/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WZOPA.html",
-      "downloadUrl":"https://github.com/peazip/PeaZip/releases/download/9.8.0/peazip-9.8.0.WIN64.exe",
+      "downloadUrl":"https://github.com/peazip/PeaZip/releases/download/9.9.0/peazip-9.9.0.WIN64.exe",
       "comments":"解压缩工具(开源、轻量化)"
     },
     {
@@ -45,7 +45,7 @@
       "type":"文本编辑",
       "softwareDetail":"https://code.visualstudio.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PZOPA.html",
-      "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/f1e16e1e6214d7c44d078b1f0607b2388f29d729/VSCodeUserSetup-x64-1.91.1.exe",
+      "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/eaa41d57266683296de7d118f574d0c2652e1fc4/VSCodeUserSetup-x64-1.92.1.exe",
       "comments":"文本编辑工具(开源、轻量化、支持Markdown、C/C++、Python等)"
     },
     {
@@ -77,23 +77,15 @@
       "type":"浏览器",
       "softwareDetail":"https://www.mozilla.org/zh-CN/firefox/new/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-IcOPA.html",
-      "downloadUrl":"https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/zh-CN/win/33f00097ce3b4256b90f42af644dbdc767b31569f1ae40376cdcdc2a67fea4a2/Firefox%20Installer.exe",
+      "downloadUrl":"https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/zh-CN/win/51134912a712a3c7ea1668d85b28c35679160481ed238e0c3d59831f52e69db2/Firefox%20Installer.exe",
       "comments":"浏览器(开源、主流、Firefox内核)"
-    },
-    {
-      "softwareName":"Brave",
-      "type":"浏览器",
-      "softwareDetail":"https://brave.com/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-McOPA.html",
-      "downloadUrl":"https://referrals.brave.com/latest/BraveBrowserSetup-BRV002.exe",
-      "comments":"浏览器(开源、防止追踪、Web3)"
     },
     {
       "softwareName":"Steam",
       "type":"游戏平台",
       "softwareDetail":"https://store.steampowered.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-wcOPA.html",
-      "downloadUrl":"https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+      "downloadUrl":"https://media.st.dl.eccdnx.com/client/installer/SteamSetup.exe",
       "comments":"游戏平台(游戏内购、主流游戏购买平台)"
     },
     {
@@ -101,7 +93,7 @@
       "type":"游戏平台",
       "softwareDetail":"https://www.epicgames.com/site/zh-CN/home",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-gcOPA.html",
-      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-a1c692626f5148f7bd9c1ddac0de7ab8.msi",
+      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-bd42bc1fd17f45efae898dad4bcc208c.msi",
       "comments":"游戏平台(游戏内购、免费领取游戏、虚幻引擎(UnrealEngine))"
     },
     {
@@ -109,7 +101,7 @@
       "type":"效率提升",
       "softwareDetail":"https://www.voidtools.com/zh-cn/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-FcOPA.html",
-      "downloadUrl":"https://www.voidtools.com/Everything-1.4.1.1024.x64-Setup.exe",
+      "downloadUrl":"https://www.voidtools.com/Everything-1.4.1.1026.x64-Setup.exe",
       "comments":"效率提升(开源、轻量化、支持搜索文件、支持搜索文件夹、支持搜索文件夹内文件)"
     },
     {
@@ -117,7 +109,7 @@
       "type":"模型制作",
       "softwareDetail":"https://www.blender.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-YcOPA.html",
-      "downloadUrl":"https://mirrors.iu13.net/blender/release/Blender4.2/blender-4.2.0-windows-x64.msi",
+      "downloadUrl":"https://www.blender.org/download/release/Blender4.2/blender-4.2.0-windows-x64.msi",
       "comments":"模型制作(开源、轻量化、支持3D建模、支持3D动画、支持3D渲染)"
     },
     {
@@ -149,7 +141,7 @@
       "type":"截图贴图",
       "softwareDetail":"https://pixpinapp.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WcOPA.html",
-      "downloadUrl":"https://download.pixpinapp.com/PixPin_1.7.6.0.exe",
+      "downloadUrl":"https://download.pixpinapp.com/PixPin_1.8.22.0.exe",
       "comments":"截图贴图(闭源、轻量化、支持截图、支持贴图、长截图)"
     },
     {
