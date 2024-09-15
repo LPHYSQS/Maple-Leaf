@@ -29,7 +29,7 @@
       "type":"书籍阅读",
       "softwareDetail":"https://calibre-ebook.com/zh_CN",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-2ZOPA.html",
-      "downloadUrl":"https://download.calibre-ebook.com/7.17.0/calibre-64bit-7.17.0.msi",
+      "downloadUrl":"https://download.calibre-ebook.com/7.18.0/calibre-64bit-7.18.0.msi",
       "comments":"书籍阅读工具(开源、支持Mobi、Epub等、支持编辑)"
     },
     {
@@ -45,7 +45,7 @@
       "type":"文本编辑",
       "softwareDetail":"https://code.visualstudio.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PZOPA.html",
-      "downloadUrl":"https://vscode.download.prss.microsoft.com/dbazure/download/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/VSCodeUserSetup-x64-1.92.2.exe",
+      "downloadUrl":"",
       "comments":"文本编辑工具(开源、轻量化、支持Markdown、C/C++、Python等)"
     },
     {
@@ -133,7 +133,7 @@
       "type":"Office",
       "softwareDetail":"https://zh-cn.libreoffice.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-scOPA.html",
-      "downloadUrl":"https://www.libreoffice.org/donate/dl/win-x86_64/24.8.0/zh-CN/LibreOffice_24.8.0_Win_x86-64.msi",
+      "downloadUrl":"",
       "comments":"Office(开源、轻量化、支持文档、支持表格、支持演示文稿)"
     },
     {
