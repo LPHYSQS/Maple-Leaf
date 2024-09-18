@@ -55,12 +55,12 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     downloadExeButton.addEventListener('click', function() {
-        var downloadUrlExe = "https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.0.0.4/MapleLeafSetup.exe";
+        var downloadUrlExe = "https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.2.0.0/MapleLeafSetup.exe";
         window.location.href = downloadUrlExe;
     });
 
     downloadZipButton.addEventListener('click', function() {
-        var downloadUrlZip = "https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.0.0.4/Maple.Leaf-win64-v1.0.0.4.zip";
+        var downloadUrlZip = "https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.2.0.0/Maple.Leaf-win64-v1.2.0.0.zip";
         window.location.href = downloadUrlZip;
     });
 });
