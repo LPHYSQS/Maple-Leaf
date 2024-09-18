@@ -7,4 +7,5 @@
 .\wpfgfx_cor3.dll&
 .\Maple Leaf_Data\StreamingAssets\Programs\&
 .\unins000.dat&
-.\unins000.exe
+.\unins000.exe&
+.\Maple Leaf_Data\StreamingAssets\SoftwareRepositories\Settings.xml
