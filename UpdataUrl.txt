@@ -1,1 +1,1 @@
-https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.0.0.4/Maple.Leaf-win64-v1.0.0.4.zip
+https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.2.0.0/Maple.Leaf-win64-v1.2.0.0.zip
