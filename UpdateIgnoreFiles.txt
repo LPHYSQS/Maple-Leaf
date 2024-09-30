@@ -8,4 +8,5 @@
 .\Maple Leaf_Data\StreamingAssets\Programs\&
 .\unins000.dat&
 .\unins000.exe&
-.\Maple Leaf_Data\StreamingAssets\SoftwareRepositories\Settings.xml
+.\Maple Leaf_Data\StreamingAssets\SoftwareRepositories\Settings.xml&
+.\Maple Leaf_Data\StreamingAssets\GetItRemotely\SoftwareInformation.json
