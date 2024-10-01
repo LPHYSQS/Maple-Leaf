@@ -29,7 +29,7 @@
       "type":"书籍阅读",
       "softwareDetail":"https://calibre-ebook.com/zh_CN",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-2ZOPA.html",
-      "downloadUrl":"https://download.calibre-ebook.com/7.18.0/calibre-64bit-7.18.0.msi",
+      "downloadUrl":"https://download.calibre-ebook.com/7.19.0/calibre-64bit-7.19.0.msi",
       "comments":"书籍阅读工具(开源、支持Mobi、Epub等、支持编辑)"
     },
     {
@@ -93,7 +93,7 @@
       "type":"游戏平台",
       "softwareDetail":"https://www.epicgames.com/site/zh-CN/home",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-gcOPA.html",
-      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-ef64451885824ffdaf35902ce45f0f58.msi",
+      "downloadUrl":"https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-ea438e8819fd4f5cac9093f423d7c30c.msi",
       "comments":"游戏平台(游戏内购、免费领取游戏、虚幻引擎(UnrealEngine))"
     },
     {
@@ -133,7 +133,7 @@
       "type":"Office",
       "softwareDetail":"https://zh-cn.libreoffice.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-scOPA.html",
-      "downloadUrl":"",
+      "downloadUrl":"https://www.libreoffice.org/donate/dl/win-x86_64/24.8.2/zh-CN/LibreOffice_24.8.2_Win_x86-64.msi",
       "comments":"Office(开源、轻量化、支持文档、支持表格、支持演示文稿)"
     },
     {
@@ -197,7 +197,7 @@
       "type":"数字绘画",
       "softwareDetail":"https://krita.org/zh-cn/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-xeOPA.html",
-      "downloadUrl":"https://download.kde.org/stable/krita/5.2.3/krita-x64-5.2.3-setup.exe",
+      "downloadUrl":"https://download.kde.org/stable/krita/5.2.6/krita-x64-5.2.6-setup.exe",
       "comments":"数字绘画(开源、轻量化、支持数字绘画、支持数字绘画滤镜)"
     },
     {
