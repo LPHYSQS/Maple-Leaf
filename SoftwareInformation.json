@@ -13,7 +13,7 @@
       "type":"解压缩",
       "softwareDetail":"https://peazip.github.io/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WZOPA.html",
-      "downloadUrl":"https://github.com/peazip/PeaZip/releases/download/10.0.0/peazip-10.0.0.WIN64.exe",
+      "downloadUrl":"https://github.com/peazip/PeaZip/releases/download/10.1.0/peazip-10.1.0.WIN64.exe",
       "comments":"解压缩工具(开源、轻量化)"
     },
     {
@@ -29,7 +29,7 @@
       "type":"书籍阅读",
       "softwareDetail":"https://calibre-ebook.com/zh_CN",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-2ZOPA.html",
-      "downloadUrl":"https://download.calibre-ebook.com/7.20.0/calibre-64bit-7.20.0.msi",
+      "downloadUrl":"https://download.calibre-ebook.com/7.21.0/calibre-64bit-7.21.0.msi",
       "comments":"书籍阅读工具(开源、支持Mobi、Epub等、支持编辑)"
     },
     {
@@ -133,7 +133,7 @@
       "type":"Office",
       "softwareDetail":"https://zh-cn.libreoffice.org/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-scOPA.html",
-      "downloadUrl":"https://www.libreoffice.org/donate/dl/win-x86_64/24.8.2/zh-CN/LibreOffice_24.8.2_Win_x86-64.msi",
+      "downloadUrl":"https://mirrors.ustc.edu.cn/tdf/libreoffice/stable/24.8.3/win/x86_64/LibreOffice_24.8.3_Win_x86-64.msi",
       "comments":"Office(开源、轻量化、支持文档、支持表格、支持演示文稿)"
     },
     {
@@ -141,7 +141,7 @@
       "type":"截图贴图",
       "softwareDetail":"https://pixpinapp.com/",
       "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WcOPA.html",
-      "downloadUrl":"https://download.pixpinapp.com/PixPin_1.8.22.0.exe",
+      "downloadUrl":"https://download.pixpinapp.com/PixPin_1.9.5.0.exe",
       "comments":"截图贴图(闭源、轻量化、支持截图、支持贴图、长截图)"
     },
     {
