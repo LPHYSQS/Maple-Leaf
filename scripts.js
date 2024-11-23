@@ -63,4 +63,69 @@ document.addEventListener('DOMContentLoaded', function() {
         var downloadUrlZip = "https://github.com/LPHYSQS/Maple-Leaf/releases/download/V1.2.1/Maple.Leaf-win64-v1.2.1.zip";
         window.location.href = downloadUrlZip;
     });
+
+    // 添加 emoji 冒泡效果
+    const emojis = ['🍁', '💻', '⭐', '✨', '🚀', '💫', '🌟', '⚡', '🎉', '🎊', '🌈', '🎯'];
+    
+    function createEmoji(x, y) {
+        const emoji = document.createElement('div');
+        emoji.className = 'emoji-bubble';
+        emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        emoji.style.left = `${x}px`;
+        emoji.style.top = `${y}px`;
+        emoji.style.setProperty('--rotation', `${Math.random() * 60 - 30}deg`);
+        document.body.appendChild(emoji);
+        
+        // 动画结束后移除元素
+        emoji.addEventListener('animationend', () => {
+            emoji.remove();
+        });
+    }
+
+    function handleButtonHover(e) {
+        const x = e.clientX;
+        const y = e.clientY;
+        createEmoji(x, y);
+    }
+
+    // 为两个下载按钮添加鼠标移入事件监听器
+    downloadExeButton.addEventListener('mouseover', function() {
+        const moveHandler = (e) => handleButtonHover(e);
+        this.moveHandler = moveHandler;
+        
+        this.lastEmoji = 0;
+        this.addEventListener('mousemove', (e) => {
+            const now = Date.now();
+            if (now - this.lastEmoji >= 150) {
+                handleButtonHover(e);
+                this.lastEmoji = now;
+            }
+        });
+    });
+
+    downloadExeButton.addEventListener('mouseout', function() {
+        if (this.moveHandler) {
+            this.removeEventListener('mousemove', this.moveHandler);
+        }
+    });
+
+    downloadZipButton.addEventListener('mouseover', function() {
+        const moveHandler = (e) => handleButtonHover(e);
+        this.moveHandler = moveHandler;
+        
+        this.lastEmoji = 0;
+        this.addEventListener('mousemove', (e) => {
+            const now = Date.now();
+            if (now - this.lastEmoji >= 150) {
+                handleButtonHover(e);
+                this.lastEmoji = now;
+            }
+        });
+    });
+
+    downloadZipButton.addEventListener('mouseout', function() {
+        if (this.moveHandler) {
+            this.removeEventListener('mousemove', this.moveHandler);
+        }
+    });
 });
