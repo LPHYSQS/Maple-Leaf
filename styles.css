@@ -191,18 +191,19 @@ body {
     position: absolute;
     top: 50%;
     left: 48%;
-    transform: translateY(-50%);
-    opacity: 0; /* 初始隐藏 */
-    transition: opacity 1s ease; /* 设置渐变效果 */
-    display: none; /* 初始隐藏 */
+    transform: translateY(-50%) translateX(100%);
+    opacity: 0;
+    transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: none;
 }
 
 .image-container img {
     width: 68%;
     object-fit: contain;
-    border-radius: 18px; /* 圆角 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648); /* 默认投影 */
-    transition: box-shadow 0.3s ease-in-out, transform 0.5s; /* 过渡效果 */
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648);
+    transition: box-shadow 0.3s ease-in-out, transform 0.5s;
 }
 
 .social-buttons {
@@ -216,9 +217,9 @@ body {
     box-shadow: 0px 0px 15px #00000027;
     padding: 5px 7px;
     border-radius: 5em;
-    opacity: 0; /* 初始隐藏 */
-    transition: opacity 1s ease; /* 设置渐变效果 */
-    display: none; /* 初始隐藏 */
+    opacity: 0;
+    transition: opacity 1s ease;
+    display: none;
   }
   
   .social-button {
@@ -462,4 +463,28 @@ html, body {
         transform: translateY(-100px) rotate(var(--rotation));
         opacity: 0;
     }
+}
+
+/* 修改原有的渐显动画 */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translate(100%, -50%); /* 从右侧开始，保持垂直居中 */
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, -50%); /* 移动到原位，保持垂直居中 */
+    }
+}
+
+/* 应用动画的元素样式 */
+.slide-in {
+    animation: slideIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+/* 当显示时的状态 */
+.image-container.visible {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
 }
