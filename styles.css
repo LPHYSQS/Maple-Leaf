@@ -4,9 +4,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
-    overflow: hidden; /* 防止页面内容超出可视区域 */
+    padding: 0;
+    position: relative;
 }
 
 .centered {
@@ -281,4 +282,184 @@ body {
     /*margin-top: 10px;*/
     opacity: 0;
     transition: opacity 1s ease-in-out;
+}
+
+/* 添加响应式设计的媒体查询 */
+@media screen and (max-width: 1200px) {
+    .container {
+        left: 10%;
+    }
+    
+    .image-container {
+        left: 45%;
+    }
+    
+    .image-container img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 956px) {
+    body {
+        overflow-y: auto;
+        align-items: center;
+        padding: 20px 0;
+        min-height: 100vh;
+        display: flex;
+    }
+
+    .container {
+        position: relative;
+        left: 0;
+        transform: none;
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+    
+    .card {
+        width: 280px;
+        margin: 0 auto 20px auto;
+    }
+    
+    .container h1 {
+        margin: 15px 0;
+    }
+    
+    .container button {
+        margin: 10px auto;
+    }
+    
+    .version {
+        margin-top: 15px;
+    }
+    
+    .social-buttons {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        bottom: auto;
+        transform: none;
+        z-index: 1000;
+        background-color: rgba(242, 242, 242, 0.9);
+        padding: 5px 7px;
+        width: auto;
+        display: flex;
+    }
+    
+    .social-button {
+        flex: 0 0 auto;
+    }
+    
+    .year {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        background-color: rgba(24, 26, 27, 0.8);
+        padding: 5px 10px;
+        border-radius: 15px;
+    }
+
+    #mainContent {
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px 0;
+    }
+
+    .container {
+        margin: 0 auto;
+        min-height: 85vh;
+    }
+
+    .card {
+        width: 240px;
+    }
+    
+    .container h1 {
+        font-size: 1.5em;
+    }
+    
+    .container button {
+        font-size: 16px;
+        height: 2.5em;
+    }
+    
+    .centered h2 {
+        font-size: 1.4em;
+    }
+    
+    .social-buttons {
+        top: 10px;
+        left: 10px;
+        padding: 3px 5px;
+    }
+    
+    .social-button {
+        width: 35px;
+        height: 35px;
+        margin: 0 5px;
+    }
+
+    .version {
+        font-size: 0.8em;
+    }
+}
+
+/* 添加新的小屏幕设备优化 */
+@media screen and (max-height: 600px) {
+    .container {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .card {
+        height: 180px;
+    }
+
+    .social-buttons {
+        bottom: 30px;
+    }
+
+    .year {
+        bottom: 5px;
+    }
+}
+
+/* 添加防止溢出的样式 */
+html, body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+
+/* 添加 emoji 动画相关样式 */
+.emoji-bubble {
+    position: fixed;
+    pointer-events: none;
+    animation: floatUp 1s ease-in-out forwards;
+    font-size: 20px;
+    z-index: 1000;
+    user-select: none;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100px) rotate(var(--rotation));
+        opacity: 0;
+    }
 }
