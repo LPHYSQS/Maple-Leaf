@@ -46,9 +46,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     downloadExeButton.style.opacity = '1';
                     downloadZipButton.style.opacity = '1';
                     versionText.style.opacity = '1';
-                    rightImageContainer.style.opacity = '1'; // Add this line
-                    socialButtons.style.opacity = '1'; // Add this line
-                    yearVersionText.style.opacity = '1'; // Add this line
+                    
+                    // 修改图片容器的显示方式
+                    rightImageContainer.style.display = 'block';
+                    // 使用 setTimeout 确保 display:block 生效后再添加 visible 类
+                    setTimeout(() => {
+                        rightImageContainer.classList.add('visible');
+                    }, 50);
+                    
+                    socialButtons.style.opacity = '1';
+                    yearVersionText.style.opacity = '1';
                 }, 100);
             }, 1000);
         }, 2000);
@@ -88,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         createEmoji(x, y);
     }
 
-    // 为两个下载按钮添加鼠标移入事件监听器
+    // 为两个下载按钮添加鼠标入事件监听器
     downloadExeButton.addEventListener('mouseover', function() {
         const moveHandler = (e) => handleButtonHover(e);
         this.moveHandler = moveHandler;
@@ -128,4 +135,24 @@ document.addEventListener('DOMContentLoaded', function() {
             this.removeEventListener('mousemove', this.moveHandler);
         }
     });
+
+    // 修改显示界面的函数
+    function showInterface() {
+        const interfaceImg = document.createElement('img');
+        interfaceImg.src = 'https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/SoftwareInterface.png?raw=true';
+        interfaceImg.classList.add('slide-in'); // 使用新的动画类
+        interfaceImg.style.position = 'fixed';
+        interfaceImg.style.right = '0';  // 固定在右侧
+        interfaceImg.style.top = '50%';
+        interfaceImg.style.transform = 'translateY(-50%)'; // 初始垂直居中
+        interfaceImg.style.maxHeight = '80vh';
+        interfaceImg.style.zIndex = '1000';
+        
+        // 添加点击事件用于关闭
+        interfaceImg.addEventListener('click', function() {
+            this.remove();
+        });
+        
+        document.body.appendChild(interfaceImg);
+    }
 });
