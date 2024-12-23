@@ -1,244 +1,244 @@
 {
-  "data":[
-    {
-      "softwareName":"7-Zip",
-      "type":"解压缩",
-      "softwareDetail":"https://7-zip.org/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-CZOPA.html",
-      "downloadUrl":"https://7-zip.org/a/7z2408-x64.exe",
-      "comments":"解压缩工具(开源、轻量化)"
-    },
-    {
-      "softwareName":"PeaZip",
-      "type":"解压缩",
-      "softwareDetail":"https://peazip.github.io/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WZOPA.html",
-      "downloadUrl":"https://github.com/peazip/PeaZip/releases/download/10.1.0/peazip-10.1.0.WIN64.exe",
-      "comments":"解压缩工具(开源、轻量化)"
-    },
-    {
-      "softwareName":"Sumatra PDF",
-      "type":"书籍阅读",
-      "softwareDetail":"https://www.sumatrapdfreader.org/free-pdf-reader",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-sZOPA.html",
-      "downloadUrl":"https://www.sumatrapdfreader.org/dl/rel/3.5.2/SumatraPDF-3.5.2-64-install.exe",
-      "comments":"书籍阅读工具(开源、轻量化、支持PDF、Mobi、Epub等、不支持编辑)"
-    },
-    {
-      "softwareName":"Calibre",
-      "type":"书籍阅读",
-      "softwareDetail":"https://calibre-ebook.com/zh_CN",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-2ZOPA.html",
-      "downloadUrl":"https://download.calibre-ebook.com/7.21.0/calibre-64bit-7.21.0.msi",
-      "comments":"书籍阅读工具(开源、支持Mobi、Epub等、支持编辑)"
-    },
-    {
-      "softwareName":"VLC media player",
-      "type":"播放器",
-      "softwareDetail":"https://www.videolan.org/vlc/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-nZOPA.html",
-      "downloadUrl":"https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe",
-      "comments":"视频、音频播放器(开源、支持MP4、AVI、FLV、WMV、直播源等)"
-    },
-    {
-      "softwareName":"Visual Studio Code",
-      "type":"文本编辑",
-      "softwareDetail":"https://code.visualstudio.com/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PZOPA.html",
-      "downloadUrl":"",
-      "comments":"文本编辑工具(开源、轻量化、支持Markdown、C/C++、Python等)"
-    },
-    {
-      "softwareName":"geek",
-      "type":"程序卸载",
-      "softwareDetail":"https://geekuninstaller.com/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-acOPA.html",
-      "downloadUrl":"https://geekuninstaller.com/geek.zip",
-      "comments":"程序卸载工具(闭源、轻量化)"
-    },
-    {
-      "softwareName":"draw.io",
-      "type":"导图白板",
-      "softwareDetail":"https://www.drawio.com/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-BcOPA.html",
-      "downloadUrl":"https://github.com/jgraph/drawio-desktop/releases/download/v24.7.17/draw.io-24.7.17-windows-installer.exe",
-      "comments":"导图白板工具(开源、轻量化、支持思维导图、流程图等)"
-    },
-    {
-      "softwareName":"Google Chrome",
-      "type":"浏览器",
-      "softwareDetail":"https://www.google.com/chrome/index.html",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-JcOPA.html",
-      "downloadUrl":"",
-      "comments":"浏览器(开源、主流、Chromium内核)"
-    },
-    {
-      "softwareName":"Firefox",
-      "type":"浏览器",
-      "softwareDetail":"https://www.mozilla.org/zh-CN/firefox/new/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-IcOPA.html",
-      "downloadUrl":"",
-      "comments":"浏览器(开源、主流、Firefox内核)"
-    },
-    {
-      "softwareName":"Steam",
-      "type":"游戏平台",
-      "softwareDetail":"https://store.steampowered.com/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-wcOPA.html",
-      "downloadUrl":"https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
-      "comments":"游戏平台(游戏内购、主流游戏购买平台)"
-    },
-    {
-      "softwareName":"Epic",
-      "type":"游戏平台",
-      "softwareDetail":"https://www.epicgames.com/site/zh-CN/home",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-gcOPA.html",
-      "downloadUrl":"",
-      "comments":"游戏平台(游戏内购、免费领取游戏、虚幻引擎(UnrealEngine))"
-    },
-    {
-      "softwareName":"Everything",
-      "type":"效率提升",
-      "softwareDetail":"https://www.voidtools.com/zh-cn/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-FcOPA.html",
-      "downloadUrl":"https://www.voidtools.com/Everything-1.4.1.1026.x64-Setup.exe",
-      "comments":"效率提升(开源、轻量化、支持搜索文件、支持搜索文件夹、支持搜索文件夹内文件)"
-    },
-    {
-      "softwareName":"Blender",
-      "type":"模型制作",
-      "softwareDetail":"https://www.blender.org/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-YcOPA.html",
-      "downloadUrl":"",
-      "comments":"模型制作(开源、轻量化、支持3D建模、支持3D动画、支持3D渲染)"
-    },
-    {
-      "softwareName":"Motrix",
-      "type":"下载器",
-      "softwareDetail":"https://motrix.app/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-GcOPA.html",
-      "downloadUrl":"https://dl.motrix.app/release/Motrix-Setup-1.8.19.exe",
-      "comments":"下载器(开源、轻量化、支持Bt下载)"
-    },
-    {
-      "softwareName":"NDM",
-      "type":"下载器",
-      "softwareDetail":"https://www.neatdownloadmanager.com/index.php/en/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-PcOPA.html",
-      "downloadUrl":"https://www.neatdownloadmanager.com/file/NeatDM_setup.exe",
-      "comments":"下载器(开源、轻量化、浏览器嗅探爬取下载)"
-    },
-    {
-      "softwareName":"LibreOffice",
-      "type":"Office",
-      "softwareDetail":"https://zh-cn.libreoffice.org/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-scOPA.html",
-      "downloadUrl":"https://mirrors.ustc.edu.cn/tdf/libreoffice/stable/24.8.3/win/x86_64/LibreOffice_24.8.3_Win_x86-64.msi",
-      "comments":"Office(开源、轻量化、支持文档、支持表格、支持演示文稿)"
-    },
-    {
-      "softwareName":"PixPin",
-      "type":"截图贴图",
-      "softwareDetail":"https://pixpinapp.com/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WcOPA.html",
-      "downloadUrl":"https://download.pixpinapp.com/PixPin_1.9.5.0.exe",
-      "comments":"截图贴图(闭源、轻量化、支持截图、支持贴图、长截图)"
-    },
-    {
-      "softwareName":"Snipaste",
-      "type":"截图贴图",
-      "softwareDetail":"https://www.snipaste.com/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-CcOPA.html",
-      "downloadUrl":"",
-      "comments":"截图贴图(闭源、轻量化、支持截图、支持贴图)"
-    },
-    {
-      "softwareName":"Upscayl",
-      "type":"图像增强",
-      "softwareDetail":"https://www.upscayl.org/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-9eOPA.html",
-      "downloadUrl":"https://github.com/upscayl/upscayl/releases/download/v2.11.5/upscayl-2.11.5-win.exe",
-      "comments":"图像增强(开源、轻量化、AI图像增强、超分辨率、AI驱动图片无损放大)"
-    },
-    {
-      "softwareName":"Qalculate!",
-      "type":"计算器",
-      "softwareDetail":"https://qalculate.github.io/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-QeOPA.html",
-      "downloadUrl":"https://github.com/Qalculate/libqalculate/releases/download/v5.3.0/qalculate-5.3.0-x64.msi",
-      "comments":"计算器(开源、轻量化、支持科学计算、支持单位换算)"
-    },
-    {
-      "softwareName":"LX Music",
-      "type":"音乐播放",
-      "softwareDetail":"https://docs.lxmusic.top/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-oeOPA.html",
-      "downloadUrl":"https://github.com/lyswhut/lx-music-desktop/releases/download/v2.9.0/lx-music-desktop-v2.9.0-x64-Setup.exe",
-      "comments":"音乐播放器(开源、轻量化、支持音乐播放、支持音乐下载、支持音乐搜索)"
-    },
-    {
-      "softwareName":"GIMP",
-      "type":"图像编辑",
-      "softwareDetail":"https://www.gimp.org/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-1eOPA.html",
-      "downloadUrl":"https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe",
-      "comments":"图像编辑(开源、轻量化、支持图像编辑、支持图像滤镜、支持图像滤镜[Photoshop平替])"
-    },
-    {
-      "softwareName":"Inkscape",
-      "type":"图像编辑",
-      "softwareDetail":"https://inkscape.org/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-4eOPA.html",
-      "downloadUrl":"https://media.inkscape.org/dl/resources/file/inkscape-1.4_2024-10-11_86a8ad7-x64.msi",
-      "comments":"图像编辑(开源、轻量化、支持矢量图像创建、编辑[Adobe Illustrator平替])"
-    },
-    {
-      "softwareName":"Krita",
-      "type":"数字绘画",
-      "softwareDetail":"https://krita.org/zh-cn/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-xeOPA.html",
-      "downloadUrl":"https://download.kde.org/stable/krita/5.2.6/krita-x64-5.2.6-setup.exe",
-      "comments":"数字绘画(开源、轻量化、支持数字绘画、支持数字绘画滤镜)"
-    },
-    {
-      "softwareName":"Chromium",
-      "type":"浏览器",
-      "softwareDetail":"https://www.chromium.org/getting-involved/download-chromium/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-cvRPA.html",
-      "downloadUrl":"",
-      "comments":"浏览器(开源、轻量化)"
-    },
-    {
-      "softwareName":"OBS",
-      "type":"屏幕录制",
-      "softwareDetail":"https://obsproject.com/zh-cn/download",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-ddRPA.html",
-      "downloadUrl":"https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.3-Windows-Installer.exe",
-      "comments":"屏幕录制(开源、轻量化、支持录屏、支持录屏滤镜)"
-    },
-    {
-      "softwareName":"PotPlayer",
-      "type":"播放器",
-      "softwareDetail":"https://potplayer.tv/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-3dRPA.html",
-      "downloadUrl":"https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe",
-      "comments":"播放器(开源、轻量化、支持视频播放、支持视频滤镜)"
-    },
-    {
-      "softwareName":"Visual Studio 2022",
-      "type":"编程工具",
-      "softwareDetail":"https://visualstudio.microsoft.com/zh-hans/vs/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-gdRPA.html",
-      "downloadUrl":"",
-      "comments":"编程工具(闭源、集成化IDE、支持C#、支持C++、支持Python等)"
-    },
-    {
-      "softwareName":"Ollama",
-      "type":"AI部署",
-      "softwareDetail":"https://ollama.com/",
-      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-ZdRPA.html",
-      "downloadUrl":"https://ollama.com/download/OllamaSetup.exe",
-      "comments":"AI模型本地部署工具(开源、轻量化、Llama 3 )"
-    }
-  ]
+    "data": [
+        {
+            "softwareName": "7-Zip",
+            "type": "解压缩",
+            "softwareDetail": "https://7-zip.org/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-CZOPA.html",
+            "downloadUrl": "",
+            "comments": "解压缩工具(开源、轻量化)"
+        },
+        {
+            "softwareName": "PeaZip",
+            "type": "解压缩",
+            "softwareDetail": "https://peazip.github.io/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-WZOPA.html",
+            "downloadUrl": "",
+            "comments": "解压缩工具(开源、轻量化)"
+        },
+        {
+            "softwareName": "Sumatra PDF",
+            "type": "书籍阅读",
+            "softwareDetail": "https://www.sumatrapdfreader.org/free-pdf-reader",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-sZOPA.html",
+            "downloadUrl": "",
+            "comments": "书籍阅读工具(开源、轻量化、支持PDF、Mobi、Epub等、不支持编辑)"
+        },
+        {
+            "softwareName": "Calibre",
+            "type": "书籍阅读",
+            "softwareDetail": "https://calibre-ebook.com/zh_CN",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-2ZOPA.html",
+            "downloadUrl": "",
+            "comments": "书籍阅读工具(开源、支持Mobi、Epub等、支持编辑)"
+        },
+        {
+            "softwareName": "VLC media player",
+            "type": "播放器",
+            "softwareDetail": "https://www.videolan.org/vlc/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-nZOPA.html",
+            "downloadUrl": "",
+            "comments": "视频、音频播放器(开源、支持MP4、AVI、FLV、WMV、直播源等)"
+        },
+        {
+            "softwareName": "Visual Studio Code",
+            "type": "文本编辑",
+            "softwareDetail": "https://code.visualstudio.com/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-PZOPA.html",
+            "downloadUrl": "",
+            "comments": "文本编辑工具(开源、轻量化、支持Markdown、C/C++、Python等)"
+        },
+        {
+            "softwareName": "geek",
+            "type": "程序卸载",
+            "softwareDetail": "https://geekuninstaller.com/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-acOPA.html",
+            "downloadUrl": "https://geekuninstaller.com/geek.zip",
+            "comments": "程序卸载工具(闭源、轻量化)"
+        },
+        {
+            "softwareName": "draw.io",
+            "type": "导图白板",
+            "softwareDetail": "https://www.drawio.com/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-BcOPA.html",
+            "downloadUrl": "",
+            "comments": "导图白板工具(开源、轻量化、支持思维导图、流程图等)"
+        },
+        {
+            "softwareName": "Google Chrome",
+            "type": "浏览器",
+            "softwareDetail": "https://www.google.com/chrome/index.html",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-JcOPA.html",
+            "downloadUrl": "",
+            "comments": "浏览器(开源、主流、Chromium内核)"
+        },
+        {
+            "softwareName": "Firefox",
+            "type": "浏览器",
+            "softwareDetail": "https://www.mozilla.org/zh-CN/firefox/new/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-IcOPA.html",
+            "downloadUrl": "",
+            "comments": "浏览器(开源、主流、Firefox内核)"
+        },
+        {
+            "softwareName": "Steam",
+            "type": "游戏平台",
+            "softwareDetail": "https://store.steampowered.com/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-wcOPA.html",
+            "downloadUrl": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+            "comments": "游戏平台(游戏内购、主流游戏购买平台)"
+        },
+        {
+            "softwareName": "Epic",
+            "type": "游戏平台",
+            "softwareDetail": "https://www.epicgames.com/site/zh-CN/home",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-gcOPA.html",
+            "downloadUrl": "",
+            "comments": "游戏平台(游戏内购、免费领取游戏、虚幻引擎(UnrealEngine))"
+        },
+        {
+            "softwareName": "Everything",
+            "type": "效率提升",
+            "softwareDetail": "https://www.voidtools.com/zh-cn/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-FcOPA.html",
+            "downloadUrl": "",
+            "comments": "效率提升(开源、轻量化、支持搜索文件、支持搜索文件夹、支持搜索文件夹内文件)"
+        },
+        {
+            "softwareName": "Blender",
+            "type": "模型制作",
+            "softwareDetail": "https://www.blender.org/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-YcOPA.html",
+            "downloadUrl": "",
+            "comments": "模型制作(开源、轻量化、支持3D建模、支持3D动画、支持3D渲染)"
+        },
+        {
+            "softwareName": "Motrix",
+            "type": "下载器",
+            "softwareDetail": "https://motrix.app/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-GcOPA.html",
+            "downloadUrl": "",
+            "comments": "下载器(开源、轻量化、支持Bt下载)"
+        },
+        {
+            "softwareName": "NDM",
+            "type": "下载器",
+            "softwareDetail": "https://www.neatdownloadmanager.com/index.php/en/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-PcOPA.html",
+            "downloadUrl": "",
+            "comments": "下载器(开源、轻量化、浏览器嗅探爬取下载)"
+        },
+        {
+            "softwareName": "LibreOffice",
+            "type": "Office",
+            "softwareDetail": "https://zh-cn.libreoffice.org/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-scOPA.html",
+            "downloadUrl": "",
+            "comments": "Office(开源、轻量化、支持文档、支持表格、支持演示文稿)"
+        },
+        {
+            "softwareName": "PixPin",
+            "type": "截图贴图",
+            "softwareDetail": "https://pixpinapp.com/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-WcOPA.html",
+            "downloadUrl": "",
+            "comments": "截图贴图(闭源、轻量化、支持截图、支持贴图、长截图)"
+        },
+        {
+            "softwareName": "Snipaste",
+            "type": "截图贴图",
+            "softwareDetail": "https://www.snipaste.com/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-CcOPA.html",
+            "downloadUrl": "",
+            "comments": "截图贴图(闭源、轻量化、支持截图、支持贴图)"
+        },
+        {
+            "softwareName": "Upscayl",
+            "type": "图像增强",
+            "softwareDetail": "https://www.upscayl.org/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-9eOPA.html",
+            "downloadUrl": "",
+            "comments": "图像增强(开源、轻量化、AI图像增强、超分辨率、AI驱动图片无损放大)"
+        },
+        {
+            "softwareName": "Qalculate!",
+            "type": "计算器",
+            "softwareDetail": "https://qalculate.github.io/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-QeOPA.html",
+            "downloadUrl": "",
+            "comments": "计算器(开源、轻量化、支持科学计算、支持单位换算)"
+        },
+        {
+            "softwareName": "LX Music",
+            "type": "音乐播放",
+            "softwareDetail": "https://docs.lxmusic.top/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-oeOPA.html",
+            "downloadUrl": "",
+            "comments": "音乐播放器(开源、轻量化、支持音乐播放、支持音乐下载、支持音乐搜索)"
+        },
+        {
+            "softwareName": "GIMP",
+            "type": "图像编辑",
+            "softwareDetail": "https://www.gimp.org/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-1eOPA.html",
+            "downloadUrl": "",
+            "comments": "图像编辑(开源、轻量化、支持图像编辑、支持图像滤镜、支持图像滤镜[Photoshop平替])"
+        },
+        {
+            "softwareName": "Inkscape",
+            "type": "图像编辑",
+            "softwareDetail": "https://inkscape.org/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-4eOPA.html",
+            "downloadUrl": "",
+            "comments": "图像编辑(开源、轻量化、支持矢量图像创建、编辑[Adobe Illustrator平替])"
+        },
+        {
+            "softwareName": "Krita",
+            "type": "数字绘画",
+            "softwareDetail": "https://krita.org/zh-cn/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-xeOPA.html",
+            "downloadUrl": "",
+            "comments": "数字绘画(开源、轻量化、支持数字绘画、支持数字绘画滤镜)"
+        },
+        {
+            "softwareName": "Chromium",
+            "type": "浏览器",
+            "softwareDetail": "https://www.chromium.org/getting-involved/download-chromium/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-cvRPA.html",
+            "downloadUrl": "",
+            "comments": "浏览器(开源、轻量化)"
+        },
+        {
+            "softwareName": "OBS",
+            "type": "屏幕录制",
+            "softwareDetail": "https://obsproject.com/zh-cn/download",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-ddRPA.html",
+            "downloadUrl": "",
+            "comments": "屏幕录制(开源、轻量化、支持录屏、支持录屏滤镜)"
+        },
+        {
+            "softwareName": "PotPlayer",
+            "type": "播放器",
+            "softwareDetail": "https://potplayer.tv/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-3dRPA.html",
+            "downloadUrl": "",
+            "comments": "播放器(开源、轻量化、支持视频播放、支持视频滤镜)"
+        },
+        {
+            "softwareName": "Visual Studio 2022",
+            "type": "编程工具",
+            "softwareDetail": "https://visualstudio.microsoft.com/zh-hans/vs/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-gdRPA.html",
+            "downloadUrl": "",
+            "comments": "编程工具(闭源、集成化IDE、支持C#、支持C++、支持Python等)"
+        },
+        {
+            "softwareName": "Ollama",
+            "type": "AI部署",
+            "softwareDetail": "https://ollama.com/",
+            "softwareNetworkDiskUrl": "https://www.123pan.com/s/eleuVv-ZdRPA.html",
+            "downloadUrl": "https://ollama.com/download/OllamaSetup.exe",
+            "comments": "AI模型本地部署工具(开源、轻量化、Llama 3 )"
+        }
+    ]
 }
