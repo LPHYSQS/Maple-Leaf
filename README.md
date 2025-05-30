@@ -28,7 +28,7 @@ Maple Leaf是一款由Unity制作的“自由软件部署”软件，你看到�
 
 ![](https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/SoftwareInterface.png?raw=true)
 
-## ✌️ 关于更新
+## ✌️ 关于更新与下载
 
 1. ~~对于“远程获取”软件资源不出意外的话我会在每个月的1号与15号进行资源更新。~~
 
