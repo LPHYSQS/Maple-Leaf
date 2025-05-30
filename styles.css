@@ -273,6 +273,23 @@ body {
     fill: #00A1D6;
   }
 
+.details {
+    background-color: #d75ab5;
+  }
+  
+  .details svg {
+    width: 20px;
+    height: 20px;
+    fill: #f2f2f2;
+  }
+  
+  .details:hover svg {
+    fill: #d75ab5;
+  }
+
+
+
+
   .year{
     position: absolute;
     top: 96%;
