@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Open-Maple-Leaf 软件说明</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #6c63ff;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+    h2 {
+      border-left: 5px solid #6c63ff;
+      padding-left: 0.6rem;
+      color: #6c63ff;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: monospace;
+      color: #d63384;
+    }
+    a {
+      color: #6c63ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Open-Maple-Leaf 😶‍🌫️</h1>
+    <p>谨以此软件致敬我的“赛博文盲”兄弟们。💖</p>
+  </header>
+
+  <div class="container">
+    <p><strong>Unity开发版本：</strong>6000.0.45f1</p>
+    <p><strong>当前开源版本：</strong>V1.2.1</p>
+    <p><strong>项目仓库：</strong><a href="https://github.com/LPHYSQS/Open-Maple-Leaf">https://github.com/LPHYSQS/Open-Maple-Leaf</a></p>
+
+    <img src="https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/AppLogo.png?raw=true" alt="Logo" />
+
+    <h2>🖊 软件说明</h2>
+    <p>Maple Leaf是为了解决PC小白安装电脑软件无法正确找到官网下载到盗版软件以及下载到捆绑软件，另外就是一些在特定情况下需要对电脑重装后快速安装一些必备软件需求，避免在U盘或移动硬盘上频繁向电脑中拷贝一些必备软件。</p>
+    <p>我的好兄弟们，他们有的Steam需要关注公众号登录，有的将Google浏览器下载成了“全家桶”（还被篡改了默认浏览器主页），有的电脑桌面全是“一刀九九、是兄弟就来砍我！”，有的在网店购买正版游戏平台安装包，呃……。</p>
+    <p>其实这些都是玩笑话，真实应该是苦搜索久矣才对。😊😊</p>
+    <p>Maple Leaf是一款由Unity制作的“自由软件部署”软件，你看到的通过“远程获取”的软件中80%都是自由且开源的软件。</p>
+    <p>关于制作如果你问我为什么选择Unity制作，原因就是我对其他的UI框架并不是十分熟悉（包括WPF【C#】，本软件的更新程序是由WPF【C#】编写的）,其实你如果有兴趣的话，可以自己搭建一个资源占用较少的UI进行驱动。</p>
+
+    <h2>🖥 软件预览</h2>
+    <img src="https://github.com/LPHYSQS/Maple-Leaf/blob/main/ImageData/SoftwareInterface.png?raw=true" alt="软件界面" />
+
+    <h2>✌️ 更新说明</h2>
+    <ul>
+      <li>远程软件资源更新已暂停</li>
+      <li>支持自定义配置文件（内置文本编辑器 Notepad3 和 Python 编辑器）</li>
+    </ul>
+
+    <h2>💻 支持系统</h2>
+    <ul>
+      <li>Windows 10 及以上（仅64位）</li>
+    </ul>
+
+    <h2>🫡 二次开发</h2>
+    <p>可通过以下 JSON 接口进行 UI 显示与交互：</p>
+    <a href="https://raw.githubusercontent.com/LPHYSQS/Maple-Leaf/main/SoftwareInformation.json">SoftwareInformation.json</a>
+    <pre><code>{
+  "softwareName": "7-Zip",
+  "type": "解压缩",
+  "softwareDetail": "https://7-zip.org/",
+  "softwareNetworkDiskUrl": "...",
+  "downloadUrl": "...",
+  "comments": "开源轻量解压缩工具"
+}</code></pre>
+
+    <h2>🔌 第三方插件</h2>
+    <h3>1. DOTween</h3>
+    <ul>
+      <li>高性能动画引擎：UI弹窗、颜色过渡</li>
+      <li><a href="https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676">Asset Store</a></li>
+      <li><a href="http://dotween.demigiant.com/documentation.php">官方文档</a></li>
+    </ul>
+
+    <h3>2. UnityMainThreadDispatcher</h3>
+    <pre><code>UnityMainThreadDispatcher.Instance().Enqueue(() => {
+    gameObject.SetActive(true);
+});</code></pre>
+    <li><a href="https://github.com/PimDeWitte/UnityMainThreadDispatcher">GitHub 地址</a></li>
+
+    <h3>3. Notepad3</h3>
+    <ul>
+    </li><a href="https://www.rizonesoft.com/downloads/notepad3/">官方下载</a></li>
+    </ul>
+   
+
+    <h2>👨‍💻 关于作者</h2>
+    <ul>
+      <li>邮箱：ysqslphlph@gmail.com</li>
+      <li>B站主页：<a href="https://space.bilibili.com/356837669">点击访问</a></li>
+      <li>GitHub主页：<a href="https://github.com/LPHYSQS">LPHYSQS (已逝情殇)</a></li>
+    </ul>
+  </div>
+</body>
+</html>
