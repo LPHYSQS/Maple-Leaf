@@ -10,12 +10,12 @@
       font-family: 'Noto Sans SC', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f8f9fa;
-      color: #333;
+      background: #1B1E1F;
+      color: #ffffff;
     }
     header {
       background-color: #6c63ff;
-      color: white;
+      color: #181A1B;
       text-align: center;
       padding: 2rem 1rem;
     }
@@ -27,7 +27,7 @@
       max-width: 900px;
       margin: auto;
       padding: 2rem;
-      background: white;
+      background: #181A1B;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       border-radius: 10px;
       margin-top: 2rem;
@@ -35,7 +35,7 @@
     h2 {
       border-left: 5px solid #6c63ff;
       padding-left: 0.6rem;
-      color: #6c63ff;
+      color: #8b9cf3;
     }
     img {
       max-width: 100%;
@@ -43,17 +43,17 @@
       margin: 1rem 0;
     }
     pre {
-      background-color: #f4f4f4;
+      background-color: #1E2122;
       padding: 1rem;
       border-radius: 5px;
       overflow-x: auto;
     }
     code {
       font-family: monospace;
-      color: #d63384;
+      color: #8CCDFE;
     }
     a {
-      color: #6c63ff;
+      color: #70edaf;
       text-decoration: none;
     }
     a:hover {
@@ -65,10 +65,11 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Open-Maple-Leaf 😶‍🌫️</h1>
-    <p>谨以此软件致敬我的“赛博文盲”兄弟们。💖</p>
-  </header>
+ <header style="color: white;">
+  <h1>Open-Maple-Leaf 😶‍🌫️</h1>
+  <p>谨以此软件致敬我的“赛博文盲”兄弟们。💖</p>
+</header>
+
 
   <div class="container">
     <p><strong>Unity开发版本：</strong>6000.0.45f1</p>
@@ -101,14 +102,45 @@
     <h2>🫡 二次开发</h2>
     <p>可通过以下 JSON 接口进行 UI 显示与交互：</p>
     <a href="https://raw.githubusercontent.com/LPHYSQS/Maple-Leaf/main/SoftwareInformation.json">SoftwareInformation.json</a>
-    <pre><code>{
-  "softwareName": "7-Zip",
-  "type": "解压缩",
-  "softwareDetail": "https://7-zip.org/",
-  "softwareNetworkDiskUrl": "...",
-  "downloadUrl": "...",
-  "comments": "开源轻量解压缩工具"
-}</code></pre>
+    <p>JSON 数据的顶层结构包含一个名为 data 的数组，其中每个元素代表一个软件，包含以下字段：</p>
+<ul>
+    <li>softwareName (字符串): 软件名称</a></li>
+    <li>type (字符串): 软件类型</a></li>
+    <li>softwareDetail (字符串): 软件详情链接</a></li>
+    <li>softwareNetworkDiskUrl (字符串): 软件网盘链接</a></li>
+    <li>downloadUrl (字符串): 软件下载链接</a></li>
+    <li>comments (字符串): 软件说明</a></li>
+</ul>
+    <pre><code>
+ {
+  "data": [
+    {
+      "softwareName":"7-Zip",
+      "type":"解压缩",
+      "softwareDetail":"https://7-zip.org/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-CZOPA.html",
+      "downloadUrl":"https://7-zip.org/a/7z2407-x64.exe",
+      "comments":"解压缩工具(开源、轻量化)"
+    },
+    {
+      "softwareName":"PeaZip",
+      "type":"解压缩",
+      "softwareDetail":"https://peazip.github.io/",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-WZOPA.html",
+      "downloadUrl":"https://github.com/peazip/PeaZip/releases/download/9.8.0/peazip-9.8.0.WIN64.exe",
+      "comments":"解压缩工具(开源、轻量化)"
+    },
+    {
+      "softwareName":"Sumatra PDF",
+      "type":"书籍阅读",
+      "softwareDetail":"https://www.sumatrapdfreader.org/free-pdf-reader",
+      "softwareNetworkDiskUrl":"https://www.123pan.com/s/eleuVv-sZOPA.html",
+      "downloadUrl":"https://www.sumatrapdfreader.org/dl/rel/3.5.2/SumatraPDF-3.5.2-64-install.exe",
+      "comments":"书籍阅读工具(开源、轻量化、支持PDF、Mobi、Epub等、不支持编辑)"
+    }
+   ]
+ }
+</code></pre>
 
     <h2>🔌 第三方插件</h2>
     <h3>1. DOTween</h3>
@@ -126,7 +158,7 @@
 
     <h3>3. Notepad3</h3>
     <ul>
-    </li><a href="https://www.rizonesoft.com/downloads/notepad3/">官方下载</a></li>
+    <li><a href="https://www.rizonesoft.com/downloads/notepad3/">官方下载</a></li>
     </ul>
    
 
